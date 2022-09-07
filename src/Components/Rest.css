@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Carter+One&family=Merienda&family=Oleo+Script&display=swap');
+.homePage{
+    font-size: 3rem;
+    color: hotpink;
+    font-family: 'Merienda', cursive;
+}
+.contactPage{
+    font-size: 3rem;
+    color: hotpink;
+    font-family: 'Merienda', cursive;
+}
+.studentPage{
+    width: 100%;
+    height: 70vh;
+}
+.topS{
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 30px;
+    display: inline-block;
+    position: relative;
+}
+.stuDetails{
+    font-size: 2.4rem;
+    color: hotpink;
+    position: absolute;
+    margin-top: 12px;
+    font-family: 'Carter One', cursive;
+    letter-spacing: 2px;
+    left: 5%;
+}
+.btn{
+    position: absolute;
+    right: 5%;
+    width: 18%;
+    border-radius: 30px;
+    margin-top: 16px;
+    padding: 10px;
+    background-color: orange;
+    font-family: 'Carter One', cursive;
+    font-size: 1.2rem;
+}
+.btn:hover{
+    background-color: indigo;
+    color: antiquewhite;
+    cursor: pointer;
+}
+table{
+    width: 80%;
+    height: 60vh;
+    border-collapse: collapse;
+    margin: 10px auto;
+    color: aqua;
+    background-color: darkcyan;
+}
+thead{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 1.8rem;
+}
+table,td,th{
+    border: 3px solid palegoldenrod;
+}
+td,th{
+    font-size: 1.5rem;
+}
